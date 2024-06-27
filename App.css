@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: radial-gradient(
+    circle farthest-corner at 48.4% 47.5%,
+    rgba(122, 183, 255, 1) 0%,
+    rgba(21, 83, 161, 1) 90%
+  );
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+div {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 11px;
+}
+
+.input[type="text"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #70a57c;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+div > button {
+  margin-left: 35px;
+  background-color: #007bff;
+}
+
+div > button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #eee;
+}
+
+li:l ast-child {
+  border-bottom: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+li.completed {
+  text-decoration: line-through;
+  color: #525252;
+}
